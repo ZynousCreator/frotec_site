@@ -17,7 +17,7 @@ body {
 .container {
     width: 50%;
     height: 75%;
-    background-color: rgb(191, 191, 191);
+    background-color: rgb(159, 159, 159);
     border: black solid 4px;
     border-radius: 32px;
     display: flex;
@@ -32,7 +32,7 @@ body {
 .container-login {
     width: 100%;
     height: 100%;
-    background-color: rgb(223, 191, 0);
+    background-color: rgb(223, 223, 223);
     border: black solid 2px;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,11 @@ input {
     height: 32px;
     border-radius: 8px;
     border: 2px solid black;
-    padding:  2px;
+    padding: 2px;
+}
+
+.error {
+    text-decoration: none;
 }
 
 button {
@@ -91,8 +95,12 @@ button {
     border-radius: 8px;
     position: absolute;
     bottom: 0;
+    background-color: white;
+    color: black;
     border: 2px solid black;
 }
+
+
 
 a {
     color: black;
